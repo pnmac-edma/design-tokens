@@ -1,0 +1,20 @@
+{
+"lineHeight": {
+  "1": {
+    "value": 1,
+    "type": "typography"
+  },
+  "2": {
+    "value": 1.0666666412353516,
+    "type": "typography"
+  },
+  "3": {
+    "value": 1.28,
+    "type": "typography"
+  },
+  "4": {
+    "value": 1.4506666564941406,
+    "type": "typography"
+  }
+}
+}

@@ -1,0 +1,39 @@
+{
+	"name": "@edma/design-tokens",
+	"version": "4.0.0",
+	"description": "Chopped and extended Figmagic coupled with Amazon Style Dictionary.",
+	"author": "Mikael Vesavuori, AWS Team, Scott Fowles",
+	"main": "./index.mjs",
+	"license": "MIT",
+	"devDependencies": {
+		"@babel/core": "^7.3.4",
+		"@babel/plugin-transform-modules-commonjs": "^7.2.0",
+		"@babel/preset-env": "^7.3.4",
+		"babel": "^6.23.0",
+		"babel-eslint": "^10.0.1",
+		"babel-jest": "^24.1.0",
+		"eslint": "^5.14.0",
+		"eslint-config-prettier": "^4.0.0",
+		"eslint-plugin-prettier": "^3.0.1",
+		"figma-assets-generator": "^1.1.2",
+		"husky": "^1.3.1",
+		"jest": "^24.1.0",
+		"prettier": "^1.16.4",
+		"pretty-quick": "^1.10.0",
+		"style-dictionary": "^2.7.0"
+	},
+	"dependencies": {
+		"dotenv": "^6.2.0",
+		"node-fetch": "^2.3.0",
+		"react": "^16.9.0",
+		"rimraf": "^2.6.3",
+		"svg-to-jsx": "^1.0.2"
+	},
+	"scripts": {
+		"setup": "rm -rf yarn.lock && rm -rf /node_modules && npm install -g",
+		"build": "node ./build.js",
+		"tokens": "echo Building JSON tokens... && echo Building ES6 tokens... && rm -rf _raw.json && rm -rf img && rm -rf css && rm -rf json && rm -rf js && rm -rf _scss && node --experimental-modules --no-warnings index.mjs && echo Initiating Style Dictionary... && node ./build.js && echo Initiating Figma Assets Generator... && npx figma-assets-generator && for file in ./img/*.svg; do npx svg-to-jsx -o $file $file; done && echo && echo Design Tokens generated successfully! && echo",
+		"test": "npx jest",
+		"precommit": "echo Running pre-commit linting... && pretty-quick --staged && npm --no-git-tag-version version patch && git add package.json"
+	}
+}

@@ -1,0 +1,700 @@
+{
+"color": {
+  "black": {
+    "value": "rgba(35, 36, 31, 1)",
+    "type": "color",
+    "comment": "Black",
+    "ratio": "15.63:1",
+    "against": "rgba(255, 255, 255, 255)",
+    "compliance": "AAA"
+  },
+  "white": {
+    "value": "rgba(255, 255, 255, 1)",
+    "type": "color",
+    "comment": "White",
+    "ratio": "15.63:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "g100": {
+    "value": "rgba(250, 250, 250, 1)",
+    "type": "color",
+    "comment": "Gray 50",
+    "ratio": "14.97:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "g200": {
+    "value": "rgba(230, 230, 230, 1)",
+    "type": "color",
+    "comment": "Gray 100",
+    "ratio": "12.52:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "g300": {
+    "value": "rgba(217, 217, 217, 1)",
+    "type": "color",
+    "comment": "Gray 200",
+    "ratio": "11.11:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "g400": {
+    "value": "rgba(161, 162, 156, 1)",
+    "type": "color",
+    "comment": "Gray 400",
+    "ratio": "6.08:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA"
+  },
+  "g500": {
+    "value": "rgba(120, 121, 115, 1)",
+    "type": "color",
+    "comment": "Gray 500",
+    "ratio": "3.56:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA",
+    "lightRatio": "4.39:1",
+    "lightAgainst": "rgba(255, 255, 255, 255)",
+    "lightCompliance": "AA"
+  },
+  "g600": {
+    "value": "rgba(99, 101, 95, 1)",
+    "type": "color",
+    "comment": "Gray 600",
+    "ratio": "5.9:1",
+    "against": "rgba(255, 255, 255, 255)",
+    "compliance": "AA"
+  },
+  "g700": {
+    "value": "rgba(66, 66, 66, 1)",
+    "type": "color",
+    "comment": "Gray 700",
+    "ratio": "10.05:1",
+    "against": "rgba(255, 255, 255, 255)",
+    "compliance": "AAA"
+  },
+  "g800": {
+    "value": "rgba(55, 56, 59, 1)",
+    "type": "color",
+    "comment": "Gray 800",
+    "ratio": "11.72:1",
+    "against": "rgba(255, 255, 255, 255)",
+    "compliance": "AAA"
+  },
+  "g900": {
+    "value": "rgba(48, 48, 48, 1)",
+    "type": "color",
+    "comment": "Gray 900",
+    "ratio": "13.2:1",
+    "against": "rgba(255, 255, 255, 255)",
+    "compliance": "AAA"
+  },
+  "y50": {
+    "value": "rgba(253, 247, 223, 1)",
+    "type": "color",
+    "comment": "Yellow 50",
+    "ratio": "19.55:1",
+    "against": "rgba(0, 0, 0, 255)",
+    "compliance": "AAA"
+  },
+  "y100": {
+    "value": "rgba(250, 234, 174, 1)",
+    "type": "color",
+    "comment": "Yellow 100",
+    "ratio": "17.45:1",
+    "against": "rgba(0, 0, 0, 255)",
+    "compliance": "AAA"
+  },
+  "y200": {
+    "value": "rgba(246, 220, 122, 1)",
+    "type": "color",
+    "comment": "Yellow 200",
+    "ratio": "15.44:1",
+    "against": "rgba(0, 0, 0, 255)",
+    "compliance": "AAA"
+  },
+  "y300": {
+    "value": "rgba(243, 208, 65, 1)",
+    "type": "color",
+    "comment": "Yellow 300",
+    "ratio": "13.91:1",
+    "against": "rgba(0, 0, 0, 255)",
+    "compliance": "AAA"
+  },
+  "y400": {
+    "value": "rgba(241, 196, 0, 1)",
+    "type": "color",
+    "comment": "Yellow 400",
+    "ratio": "12.64:1",
+    "against": "rgba(0, 0, 0, 255)",
+    "compliance": "AAA"
+  },
+  "y500": {
+    "value": "rgba(240, 186, 0, 1)",
+    "type": "color",
+    "comment": "Yellow 500",
+    "ratio": "8.73:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "y600": {
+    "value": "rgba(241, 172, 0, 1)",
+    "type": "color",
+    "comment": "Yellow 600",
+    "ratio": "7.92:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "y700": {
+    "value": "rgba(242, 153, 0, 1)",
+    "type": "color",
+    "comment": "Yellow 700",
+    "ratio": "6.95:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA"
+  },
+  "y800": {
+    "value": "rgba(242, 136, 0, 1)",
+    "type": "color",
+    "comment": "Yellow 800",
+    "ratio": "6.18:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA"
+  },
+  "y900": {
+    "value": "rgba(243, 104, 0, 1)",
+    "type": "color",
+    "comment": "Yellow 900",
+    "ratio": "5.05:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA",
+    "lightRatio": "3.09:1",
+    "lightAgainst": "rgba(255, 255, 255, 255)",
+    "lightCompliance": "AA"
+  },
+  "r50": {
+    "value": "rgba(255, 235, 238, 1)",
+    "type": "color",
+    "comment": "Red 50",
+    "ratio": "13.67:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "r100": {
+    "value": "rgba(255, 205, 209, 1)",
+    "type": "color",
+    "comment": "Red 100",
+    "ratio": "11.09:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "r200": {
+    "value": "rgba(247, 154, 151, 1)",
+    "type": "color",
+    "comment": "Red 200",
+    "ratio": "7.46:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "r300": {
+    "value": "rgba(239, 115, 110, 1)",
+    "type": "color",
+    "comment": "Red 300",
+    "ratio": "5.47:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA"
+  },
+  "r400": {
+    "value": "rgba(249, 82, 72, 1)",
+    "type": "color",
+    "comment": "Red 400",
+    "ratio": "4.71:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA",
+    "lightRatio": "3.32:1",
+    "lightAgainst": "rgba(255, 255, 255, 255)",
+    "lightCompliance": "AA"
+  },
+  "r500": {
+    "value": "rgba(254, 65, 41, 1)",
+    "type": "color",
+    "comment": "Red 500",
+    "ratio": "4.47:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA"
+  },
+  "r600": {
+    "value": "rgba(240, 55, 42, 1)",
+    "type": "color",
+    "comment": "Red 600",
+    "ratio": "3.93:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA",
+    "lightRatio": "3.97:1",
+    "lightAgainst": "rgba(255, 255, 255, 255)",
+    "lightCompliance": "AA"
+  },
+  "r700": {
+    "value": "rgba(222, 43, 37, 1)",
+    "type": "color",
+    "comment": "Red 700",
+    "ratio": "3.33:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA",
+    "lightRatio": "4.69:1",
+    "lightAgainst": "rgba(255, 255, 255, 255)",
+    "lightCompliance": "AA"
+  },
+  "r800": {
+    "value": "rgba(209, 35, 29, 1)",
+    "type": "color",
+    "comment": "Red 800",
+    "ratio": "5.29:1",
+    "against": "rgba(255, 255, 255, 255)",
+    "compliance": "AA"
+  },
+  "r900": {
+    "value": "rgba(195, 18, 14, 1)",
+    "type": "color",
+    "comment": "Red 900",
+    "ratio": "6.15:1",
+    "against": "rgba(255, 255, 255, 255)",
+    "compliance": "AA"
+  },
+  "p50": {
+    "value": "rgba(255, 233, 239, 1)",
+    "type": "color",
+    "comment": "Pink 50",
+    "ratio": "13.51:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "p100": {
+    "value": "rgba(255, 200, 213, 1)",
+    "type": "color",
+    "comment": "Pink 100",
+    "ratio": "10.77:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "p200": {
+    "value": "rgba(241, 143, 158, 1)",
+    "type": "color",
+    "comment": "Pink 200",
+    "ratio": "6.82:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA"
+  },
+  "p300": {
+    "value": "rgba(232, 97, 120, 1)",
+    "type": "color",
+    "comment": "Pink 300",
+    "ratio": "4.77:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA",
+    "lightRatio": "3.27:1",
+    "lightAgainst": "rgba(255, 255, 255, 255)",
+    "lightCompliance": "AA"
+  },
+  "p400": {
+    "value": "rgba(244, 46, 87, 1)",
+    "type": "color",
+    "comment": "Pink 400",
+    "ratio": "4:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA",
+    "lightRatio": "3.91:1",
+    "lightAgainst": "rgba(255, 255, 255, 255)",
+    "lightCompliance": "AA"
+  },
+  "p500": {
+    "value": "rgba(250, 0, 63, 1)",
+    "type": "color",
+    "comment": "Pink 500",
+    "ratio": "3.82:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA",
+    "lightRatio": "4.09:1",
+    "lightAgainst": "rgba(255, 255, 255, 255)",
+    "lightCompliance": "AA"
+  },
+  "p600": {
+    "value": "rgba(234, 0, 62, 1)",
+    "type": "color",
+    "comment": "Pink 600",
+    "ratio": "3.4:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA",
+    "lightRatio": "4.6:1",
+    "lightAgainst": "rgba(255, 255, 255, 255)",
+    "lightCompliance": "AA"
+  },
+  "p700": {
+    "value": "rgba(216, 0, 55, 1)",
+    "type": "color",
+    "comment": "Pink 700",
+    "ratio": "5.28:1",
+    "against": "rgba(255, 255, 255, 255)",
+    "compliance": "AA"
+  },
+  "p800": {
+    "value": "rgba(203, 0, 47, 1)",
+    "type": "color",
+    "comment": "Pink 800",
+    "ratio": "5.87:1",
+    "against": "rgba(255, 255, 255, 255)",
+    "compliance": "AA"
+  },
+  "p900": {
+    "value": "rgba(188, 0, 35, 1)",
+    "type": "color",
+    "comment": "Pink 900",
+    "ratio": "6.64:1",
+    "against": "rgba(255, 255, 255, 255)",
+    "compliance": "AA"
+  },
+  "v50": {
+    "value": "rgba(249, 230, 240, 1)",
+    "type": "color",
+    "comment": "Violet 50",
+    "ratio": "13.1:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "v100": {
+    "value": "rgba(243, 192, 218, 1)",
+    "type": "color",
+    "comment": "Violet 100",
+    "ratio": "9.95:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "v200": {
+    "value": "rgba(237, 151, 194, 1)",
+    "type": "color",
+    "comment": "Violet 200",
+    "ratio": "7.3:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "v300": {
+    "value": "rgba(233, 111, 170, 1)",
+    "type": "color",
+    "comment": "Violet 300",
+    "ratio": "5.45:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA"
+  },
+  "v400": {
+    "value": "rgba(230, 82, 150, 1)",
+    "type": "color",
+    "comment": "Violet 400",
+    "ratio": "4.47:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA",
+    "lightRatio": "3.49:1",
+    "lightAgainst": "rgba(255, 255, 255, 255)",
+    "lightCompliance": "AA"
+  },
+  "v500": {
+    "value": "rgba(231, 56, 130, 1)",
+    "type": "color",
+    "comment": "Violet 500",
+    "ratio": "3.93:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA",
+    "lightRatio": "3.97:1",
+    "lightAgainst": "rgba(255, 255, 255, 255)",
+    "lightCompliance": "AA"
+  },
+  "v600": {
+    "value": "rgba(213, 53, 125, 1)",
+    "type": "color",
+    "comment": "Violet 600",
+    "ratio": "3.45:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA",
+    "lightRatio": "4.53:1",
+    "lightAgainst": "rgba(255, 255, 255, 255)",
+    "lightCompliance": "AA"
+  },
+  "v700": {
+    "value": "rgba(190, 50, 117, 1)",
+    "type": "color",
+    "comment": "Violet 700",
+    "ratio": "5.38:1",
+    "against": "rgba(255, 255, 255, 255)",
+    "compliance": "AA"
+  },
+  "v800": {
+    "value": "rgba(168, 47, 110, 1)",
+    "type": "color",
+    "comment": "Violet 800",
+    "ratio": "6.37:1",
+    "against": "rgba(255, 255, 255, 255)",
+    "compliance": "AA"
+  },
+  "v900": {
+    "value": "rgba(130, 40, 98, 1)",
+    "type": "color",
+    "comment": "Violet 900",
+    "ratio": "8.65:1",
+    "against": "rgba(255, 255, 255, 255)",
+    "compliance": "AAA"
+  },
+  "b50": {
+    "value": "rgba(232, 237, 250, 1)",
+    "type": "color",
+    "comment": "Blue 50",
+    "ratio": "13.34:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "b100": {
+    "value": "rgba(198, 209, 243, 1)",
+    "type": "color",
+    "comment": "Blue 100",
+    "ratio": "10.28:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "b200": {
+    "value": "rgba(159, 179, 236, 1)",
+    "type": "color",
+    "comment": "Blue 200",
+    "ratio": "7.54:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "b300": {
+    "value": "rgba(117, 149, 228, 1)",
+    "type": "color",
+    "comment": "Blue 300",
+    "ratio": "5.34:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA"
+  },
+  "b400": {
+    "value": "rgba(81, 123, 222, 1)",
+    "type": "color",
+    "comment": "Blue 400",
+    "ratio": "3.9:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA",
+    "lightRatio": "4.01:1",
+    "lightAgainst": "rgba(255, 255, 255, 255)",
+    "lightCompliance": "AA"
+  },
+  "b500": {
+    "value": "rgba(39, 99, 214, 1)",
+    "type": "color",
+    "comment": "Blue 500",
+    "ratio": "5.47:1",
+    "against": "rgba(255, 255, 255, 255)",
+    "compliance": "AA"
+  },
+  "b600": {
+    "value": "rgba(30, 91, 203, 1)",
+    "type": "color",
+    "comment": "Blue 600",
+    "ratio": "6.15:1",
+    "against": "rgba(255, 255, 255, 255)",
+    "compliance": "AA"
+  },
+  "b700": {
+    "value": "rgba(12, 80, 190, 1)",
+    "type": "color",
+    "comment": "Blue 700",
+    "ratio": "7.22:1",
+    "against": "rgba(255, 255, 255, 255)",
+    "compliance": "AAA"
+  },
+  "b800": {
+    "value": "rgba(0, 70, 178, 1)",
+    "type": "color",
+    "comment": "Blue 800",
+    "ratio": "8.34:1",
+    "against": "rgba(255, 255, 255, 255)",
+    "compliance": "AAA"
+  },
+  "b900": {
+    "value": "rgba(0, 48, 135, 1)",
+    "type": "color",
+    "comment": "Blue 900",
+    "ratio": "11.85:1",
+    "against": "rgba(255, 255, 255, 255)",
+    "compliance": "AAA"
+  },
+  "c50": {
+    "value": "rgba(224, 244, 250, 1)",
+    "type": "color",
+    "comment": "Cyan 50",
+    "ratio": "13.76:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "c100": {
+    "value": "rgba(178, 226, 243, 1)",
+    "type": "color",
+    "comment": "Cyan 100",
+    "ratio": "11.21:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "c200": {
+    "value": "rgba(128, 207, 235, 1)",
+    "type": "color",
+    "comment": "Cyan 200",
+    "ratio": "8.96:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "c300": {
+    "value": "rgba(82, 188, 227, 1)",
+    "type": "color",
+    "comment": "Cyan 300",
+    "ratio": "7.19:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "c400": {
+    "value": "rgba(49, 175, 223, 1)",
+    "type": "color",
+    "comment": "Cyan 400",
+    "ratio": "6.2:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA"
+  },
+  "c500": {
+    "value": "rgba(0, 161, 220, 1)",
+    "type": "color",
+    "comment": "Cyan 500",
+    "ratio": "5.31:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA"
+  },
+  "c600": {
+    "value": "rgba(0, 148, 207, 1)",
+    "type": "color",
+    "comment": "Cyan 600",
+    "ratio": "4.57:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA",
+    "lightRatio": "3.42:1",
+    "lightAgainst": "rgba(255, 255, 255, 255)",
+    "lightCompliance": "AA"
+  },
+  "c700": {
+    "value": "rgba(0, 130, 188, 1)",
+    "type": "color",
+    "comment": "Cyan 700",
+    "ratio": "3.66:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA",
+    "lightRatio": "4.27:1",
+    "lightAgainst": "rgba(255, 255, 255, 255)",
+    "lightCompliance": "AA"
+  },
+  "c800": {
+    "value": "rgba(0, 113, 169, 1)",
+    "type": "color",
+    "comment": "Cyan 800",
+    "ratio": "5.34:1",
+    "against": "rgba(255, 255, 255, 255)",
+    "compliance": "AA"
+  },
+  "c900": {
+    "value": "rgba(0, 82, 137, 1)",
+    "type": "color",
+    "comment": "Cyan 900",
+    "ratio": "8.18:1",
+    "against": "rgba(255, 255, 255, 255)",
+    "compliance": "AAA"
+  },
+  "t50": {
+    "value": "rgba(228, 253, 240, 1)",
+    "type": "color",
+    "comment": "Teal 50",
+    "ratio": "14.59:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "t100": {
+    "value": "rgba(190, 249, 217, 1)",
+    "type": "color",
+    "comment": "Teal 100",
+    "ratio": "13.2:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "t200": {
+    "value": "rgba(142, 245, 192, 1)",
+    "type": "color",
+    "comment": "Teal 200",
+    "ratio": "11.89:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "t300": {
+    "value": "rgba(72, 241, 165, 1)",
+    "type": "color",
+    "comment": "Teal 300",
+    "ratio": "10.72:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "t400": {
+    "value": "rgba(0, 235, 142, 1)",
+    "type": "color",
+    "comment": "Teal 400",
+    "ratio": "9.88:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "t500": {
+    "value": "rgba(0, 228, 123, 1)",
+    "type": "color",
+    "comment": "Teal 500",
+    "ratio": "9.22:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "t600": {
+    "value": "rgba(0, 211, 111, 1)",
+    "type": "color",
+    "comment": "Teal 600",
+    "ratio": "7.85:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "t700": {
+    "value": "rgba(0, 191, 96, 1)",
+    "type": "color",
+    "comment": "Teal 700",
+    "ratio": "6.42:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA"
+  },
+  "t800": {
+    "value": "rgba(0, 173, 84, 1)",
+    "type": "color",
+    "comment": "Teal 800",
+    "ratio": "5.29:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA"
+  },
+  "t900": {
+    "value": "rgba(20, 137, 44, 1)",
+    "type": "color",
+    "comment": "Teal 900",
+    "ratio": "3.46:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA",
+    "lightRatio": "4.52:1",
+    "lightAgainst": "rgba(255, 255, 255, 255)",
+    "lightCompliance": "AA"
+  }
+}
+}

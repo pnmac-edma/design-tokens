@@ -1,0 +1,24 @@
+{
+"spacing": {
+  "1": {
+    "value": "0.25em",
+    "type": "layout"
+  },
+  "2": {
+    "value": "0.5em",
+    "type": "layout"
+  },
+  "3": {
+    "value": "1em",
+    "type": "layout"
+  },
+  "4": {
+    "value": "1.5em",
+    "type": "layout"
+  },
+  "5": {
+    "value": "2em",
+    "type": "layout"
+  }
+}
+}

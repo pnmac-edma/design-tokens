@@ -1,0 +1,16 @@
+{
+"breakpoint": {
+  "1": {
+    "value": "750px",
+    "type": "layout"
+  },
+  "2": {
+    "value": "1050px",
+    "type": "layout"
+  },
+  "3": {
+    "value": "1200px",
+    "type": "layout"
+  }
+}
+}

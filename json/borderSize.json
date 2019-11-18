@@ -1,0 +1,12 @@
+{
+"borderSize": {
+  "1": {
+    "value": "1px",
+    "type": "border"
+  },
+  "2": {
+    "value": "2px",
+    "type": "border"
+  }
+}
+}

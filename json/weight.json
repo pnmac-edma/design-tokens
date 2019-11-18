@@ -1,0 +1,24 @@
+{
+"weight": {
+  "bold": {
+    "value": 700,
+    "type": "typography"
+  },
+  "medium": {
+    "value": 500,
+    "type": "typography"
+  },
+  "regular": {
+    "value": 400,
+    "type": "typography"
+  },
+  "light": {
+    "value": 300,
+    "type": "typography"
+  },
+  "ultralight": {
+    "value": 100,
+    "type": "typography"
+  }
+}
+}

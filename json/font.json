@@ -1,0 +1,12 @@
+{
+"font": {
+  "mono": {
+    "value": "\"Roboto Mono\", monospace",
+    "type": "typography"
+  },
+  "body": {
+    "value": "\"Roboto\", sans-serif",
+    "type": "typography"
+  }
+}
+}

@@ -1,0 +1,167 @@
+{
+"brand": {
+  "lightestYellow": {
+    "value": "rgba(250, 236, 156, 1)",
+    "type": "color",
+    "comment": "Brand Lightest Yellow",
+    "ratio": "13.06:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "lightYellow": {
+    "value": "rgba(243, 210, 47, 1)",
+    "type": "color",
+    "comment": "Brand Light Yellow",
+    "ratio": "10.47:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "yellow": {
+    "value": "rgba(241, 196, 0, 1)",
+    "type": "color",
+    "comment": "Brand Yellow",
+    "ratio": "13.91:1",
+    "against": "rgba(0, 0, 0, 255)",
+    "compliance": "AAA"
+  },
+  "darkYellow": {
+    "value": "rgba(166, 129, 4, 1)",
+    "type": "color",
+    "comment": "Brand Dark Yellow",
+    "ratio": "4.29:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA"
+  },
+  "lightestRed": {
+    "value": "rgba(242, 187, 184, 1)",
+    "type": "color",
+    "comment": "Brand Lightest Red",
+    "ratio": "9.36:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "lightRed": {
+    "value": "rgba(225, 100, 93, 1)",
+    "type": "color",
+    "comment": "Brand Light Red",
+    "ratio": "4.6:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA"
+  },
+  "red": {
+    "value": "rgba(209, 35, 29, 1)",
+    "type": "color",
+    "comment": "Brand Red",
+    "ratio": "5.29:1",
+    "against": "rgba(255, 255, 255, 255)",
+    "compliance": "AA"
+  },
+  "darkRed": {
+    "value": "rgba(136, 23, 1, 1)",
+    "type": "color",
+    "comment": "Brand Dark Red",
+    "ratio": "9.68:1",
+    "against": "rgba(255, 255, 255, 255)",
+    "compliance": "AAA"
+  },
+  "lightestBlue": {
+    "value": "rgba(214, 221, 235, 1)",
+    "type": "color",
+    "comment": "Brand Lightest Blue",
+    "ratio": "11.46:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "lightBlue": {
+    "value": "rgba(59, 87, 157, 1)",
+    "type": "color",
+    "comment": "Brand Light Blue",
+    "ratio": "6.92:1",
+    "against": "rgba(255, 255, 255, 255)",
+    "compliance": "AA"
+  },
+  "blue": {
+    "value": "rgba(0, 48, 135, 1)",
+    "type": "color",
+    "comment": "Brand Blue",
+    "ratio": "11.85:1",
+    "against": "rgba(255, 255, 255, 255)",
+    "compliance": "AAA"
+  },
+  "darkBlue": {
+    "value": "rgba(1, 23, 91, 1)",
+    "type": "color",
+    "comment": "Brand Dark Blue",
+    "ratio": "16.47:1",
+    "against": "rgba(255, 255, 255, 255)",
+    "compliance": "AAA"
+  },
+  "lightestCyan": {
+    "value": "rgba(203, 234, 246, 1)",
+    "type": "color",
+    "comment": "Brand Lightest Cyan",
+    "ratio": "12.38:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "lightCyan": {
+    "value": "rgba(86, 183, 225, 1)",
+    "type": "color",
+    "comment": "Brand Light Cyan",
+    "ratio": "6.89:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA"
+  },
+  "cyan": {
+    "value": "rgba(49, 175, 223, 1)",
+    "type": "color",
+    "comment": "Brand Cyan",
+    "ratio": "6.2:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA"
+  },
+  "darkCyan": {
+    "value": "rgba(24, 120, 156, 1)",
+    "type": "color",
+    "comment": "Brand Dark Cyan",
+    "ratio": "4.99:1",
+    "against": "rgba(255, 255, 255, 255)",
+    "compliance": "AA"
+  },
+  "lightestGreen": {
+    "value": "rgba(181, 219, 190, 1)",
+    "type": "color",
+    "comment": "Brand Lightest Green",
+    "ratio": "10.3:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "lightGreen": {
+    "value": "rgba(87, 173, 105, 1)",
+    "type": "color",
+    "comment": "Brand Light Green",
+    "ratio": "5.56:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA"
+  },
+  "green": {
+    "value": "rgba(20, 137, 44, 1)",
+    "type": "color",
+    "comment": "Brand Green",
+    "ratio": "3.46:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA",
+    "lightRatio": "4.52:1",
+    "lightAgainst": "rgba(255, 255, 255, 255)",
+    "lightCompliance": "AA"
+  },
+  "darkGreen": {
+    "value": "rgba(6, 98, 27, 1)",
+    "type": "color",
+    "comment": "Brand Dark Green",
+    "ratio": "7.58:1",
+    "against": "rgba(255, 255, 255, 255)",
+    "compliance": "AAA"
+  }
+}
+}
