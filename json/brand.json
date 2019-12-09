@@ -148,12 +148,9 @@
     "value": "rgba(20, 137, 44, 1)",
     "type": "color",
     "comment": "Brand Green",
-    "ratio": "3.46:1",
-    "against": "rgba(35, 36, 31, 255)",
-    "compliance": "AA",
-    "lightRatio": "4.52:1",
-    "lightAgainst": "rgba(255, 255, 255, 255)",
-    "lightCompliance": "AA"
+    "ratio": "4.52:1",
+    "against": "rgba(255, 255, 255, 255)",
+    "compliance": "AA"
   },
   "darkGreen": {
     "value": "rgba(6, 98, 27, 1)",
