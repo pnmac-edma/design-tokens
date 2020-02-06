@@ -10,8 +10,11 @@ export function setupFontTokens(frame, format) {
 			let name = camelize(type.name);
 			name = formatName(name);
 
-			const fontName = type.style.fontFamily;
+			let fontName = type.style.fontFamily;
 			let fontType = 'sans-serif';
+
+			if (fontName.includes('Gilroy'))
+				fontName = 'Gilroy';
 
 			if (fontName.includes('Mono') || fontName.includes('mono')) {
 				fontType = 'monospace';

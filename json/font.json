@@ -1,11 +1,15 @@
 {
 "font": {
-  "mono": {
-    "value": "\"Roboto Mono\", monospace",
+  "body": {
+    "value": "\"Open Sans\", sans-serif",
     "type": "typography"
   },
-  "body": {
-    "value": "\"Roboto\", sans-serif",
+  "heading": {
+    "value": "\"Gilroy\", sans-serif",
+    "type": "typography"
+  },
+  "mono": {
+    "value": "\"Roboto Mono\", monospace",
     "type": "typography"
   }
 }

@@ -182,6 +182,86 @@
     "lightAgainst": "rgba(255, 255, 255, 255)",
     "lightCompliance": "AA"
   },
+  "br50": {
+    "value": "rgba(255, 244, 224, 1)",
+    "type": "color",
+    "comment": "Brown 50",
+    "ratio": "14.34:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "br100": {
+    "value": "rgba(255, 225, 178, 1)",
+    "type": "color",
+    "comment": "Brown 100",
+    "ratio": "12.4:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "br200": {
+    "value": "rgba(219, 187, 138, 1)",
+    "type": "color",
+    "comment": "Brown 200",
+    "ratio": "8.52:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AAA"
+  },
+  "br300": {
+    "value": "rgba(190, 150, 103, 1)",
+    "type": "color",
+    "comment": "Brown 300",
+    "ratio": "5.77:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA"
+  },
+  "br400": {
+    "value": "rgba(181, 138, 87, 1)",
+    "type": "color",
+    "comment": "Brown 400",
+    "ratio": "5:1",
+    "against": "rgba(35, 36, 31, 255)",
+    "compliance": "AA"
+  },
+  "br500": {
+    "value": "rgba(148, 98, 53, 1)",
+    "type": "color",
+    "comment": "Brown 500",
+    "ratio": "5.19:1",
+    "against": "rgba(255, 255, 255, 255)",
+    "compliance": "AA"
+  },
+  "br600": {
+    "value": "rgba(135, 85, 43, 1)",
+    "type": "color",
+    "comment": "Brown 600",
+    "ratio": "6.24:1",
+    "against": "rgba(255, 255, 255, 255)",
+    "compliance": "AA"
+  },
+  "br700": {
+    "value": "rgba(123, 77, 51, 1)",
+    "type": "color",
+    "comment": "Brown 700",
+    "ratio": "7.12:1",
+    "against": "rgba(255, 255, 255, 255)",
+    "compliance": "AAA"
+  },
+  "br800": {
+    "value": "rgba(111, 69, 51, 1)",
+    "type": "color",
+    "comment": "Brown 800",
+    "ratio": "8.13:1",
+    "against": "rgba(255, 255, 255, 255)",
+    "compliance": "AAA"
+  },
+  "br900": {
+    "value": "rgba(101, 62, 45, 1)",
+    "type": "color",
+    "comment": "Brown 900",
+    "ratio": "9.21:1",
+    "against": "rgba(255, 255, 255, 255)",
+    "compliance": "AAA"
+  },
   "r50": {
     "value": "rgba(255, 235, 238, 1)",
     "type": "color",

@@ -4,7 +4,7 @@
 	</g>
 	<defs>
 		<clipPath id="clip0">
-			<rect height="24" width="24" fill="white"/>
+			<path d="M0 0H24V24H0V0Z" fill="white"/>
 		</clipPath>
 	</defs>
 </svg>

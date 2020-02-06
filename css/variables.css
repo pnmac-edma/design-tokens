@@ -1,10 +1,11 @@
 /**
  * Do not edit directly
- * Generated on Mon, 09 Dec 2019 13:50:45 GMT
+ * Generated on Thu, 06 Feb 2020 14:53:39 GMT
  */
 
 :root {
  --border-radius-1: 4px;
+ --border-radius-2: 10px;
  --border-size-1: 1px;
  --border-size-2: 2px;
  --brand-lightest-yellow: rgba(250, 236, 156, 1); /* Brand Lightest Yellow */
@@ -52,6 +53,16 @@
  --color-y-700: #f29900; /* Yellow 700 */
  --color-y-800: #f28800; /* Yellow 800 */
  --color-y-900: #f36800; /* Yellow 900 */
+ --color-br-50: #fff4e0; /* Brown 50 */
+ --color-br-100: #ffe1b2; /* Brown 100 */
+ --color-br-200: #dbbb8a; /* Brown 200 */
+ --color-br-300: #be9667; /* Brown 300 */
+ --color-br-400: #b58a57; /* Brown 400 */
+ --color-br-500: #946235; /* Brown 500 */
+ --color-br-600: #87552b; /* Brown 600 */
+ --color-br-700: #7b4d33; /* Brown 700 */
+ --color-br-800: #6f4533; /* Brown 800 */
+ --color-br-900: #653e2d; /* Brown 900 */
  --color-r-50: #ffebee; /* Red 50 */
  --color-r-100: #ffcdd1; /* Red 100 */
  --color-r-200: #f79a97; /* Red 200 */
@@ -112,31 +123,32 @@
  --color-t-700: #00bf60; /* Teal 700 */
  --color-t-800: #00ad54; /* Teal 800 */
  --color-t-900: #14892c; /* Teal 900 */
+ --font-body: "Open Sans", sans-serif;
+ --font-heading: "Gilroy", sans-serif;
  --font-mono: "Roboto Mono", monospace;
- --font-body: "Roboto", sans-serif;
- --font-size-0: 0.875rem; /* 14px */
- --font-size-1: 1rem; /* 16px */
- --font-size-2: 1.25rem; /* 20px */
- --font-size-3: 1.5rem; /* 24px */
- --font-size-4: 1.875rem; /* 30px */
- --font-size-5: 2.0625rem; /* 33px */
- --font-size-6: 2.5rem; /* 40px */
+ --font-size-h-1: 2.5rem; /* 40px */
+ --font-size-h-2: 1.875rem; /* 30px */
+ --font-size-h-3: 1.5rem; /* 24px */
+ --font-size-body-0: 0.875rem; /* 14px */
+ --font-size-body-1: 1rem; /* 16px */
+ --font-size-body-2: 1.25rem; /* 20px */
  --line-height-1: 1;
  --line-height-2: 1.0666666412353516;
  --line-height-3: 1.28;
  --line-height-4: 1.4506666564941406;
  --shadow-1: 1px 1px 2px rgba(0, 0, 0, 0.25);
  --shadow-2: 2px 2px 3px rgba(0, 0, 0, 0.25);
+ --shadow-3: 0px 8px 10px rgba(0, 0, 0, 0.20000000298023224);
  --spacing-1: 0.25em;
  --spacing-2: 0.5em;
  --spacing-3: 1em;
  --spacing-4: 1.5em;
  --spacing-5: 2em;
+ --weight-extrabold: 800;
  --weight-bold: 700;
- --weight-medium: 500;
+ --weight-medium: 600;
  --weight-regular: 400;
  --weight-light: 300;
- --weight-ultralight: 100;
  --z-0: 0;
  --z-1: 1;
  --z-2: 10;

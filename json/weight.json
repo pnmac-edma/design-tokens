@@ -1,11 +1,15 @@
 {
 "weight": {
+  "extrabold": {
+    "value": 800,
+    "type": "typography"
+  },
   "bold": {
     "value": 700,
     "type": "typography"
   },
   "medium": {
-    "value": 500,
+    "value": 600,
     "type": "typography"
   },
   "regular": {
@@ -14,10 +18,6 @@
   },
   "light": {
     "value": 300,
-    "type": "typography"
-  },
-  "ultralight": {
-    "value": 100,
     "type": "typography"
   }
 }

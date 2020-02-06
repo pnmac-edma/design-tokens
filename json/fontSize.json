@@ -1,39 +1,34 @@
 {
 "fontSize": {
-  "0": {
-    "value": "0.875rem",
+  "h1": {
+    "value": "2.5rem",
     "type": "typography",
-    "comment": "14px"
+    "comment": "40px"
   },
-  "1": {
-    "value": "1rem",
-    "type": "typography",
-    "comment": "16px"
-  },
-  "2": {
-    "value": "1.25rem",
-    "type": "typography",
-    "comment": "20px"
-  },
-  "3": {
-    "value": "1.5rem",
-    "type": "typography",
-    "comment": "24px"
-  },
-  "4": {
+  "h2": {
     "value": "1.875rem",
     "type": "typography",
     "comment": "30px"
   },
-  "5": {
-    "value": "2.0625rem",
+  "h3": {
+    "value": "1.5rem",
     "type": "typography",
-    "comment": "33px"
+    "comment": "24px"
   },
-  "6": {
-    "value": "2.5rem",
+  "body0": {
+    "value": "0.875rem",
     "type": "typography",
-    "comment": "40px"
+    "comment": "14px"
+  },
+  "body1": {
+    "value": "1rem",
+    "type": "typography",
+    "comment": "16px"
+  },
+  "body2": {
+    "value": "1.25rem",
+    "type": "typography",
+    "comment": "20px"
   }
 }
 }
