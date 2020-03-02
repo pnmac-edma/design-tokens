@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 06 Feb 2020 14:53:39 GMT
+ * Generated on Mon, 02 Mar 2020 14:54:32 GMT
  */
 
 const color = {

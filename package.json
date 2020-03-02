@@ -1,6 +1,6 @@
 {
 	"name": "@edma/design-tokens",
-	"version": "4.1.0",
+	"version": "4.2.2",
 	"description": "Chopped and extended Figmagic coupled with Amazon Style Dictionary.",
 	"author": "Mikael Vesavuori, AWS Team, Scott Fowles",
 	"main": "./index.mjs",
@@ -32,7 +32,7 @@
 	"scripts": {
 		"setup": "rm -rf yarn.lock && rm -rf /node_modules && npm install -g",
 		"build": "node ./build.js",
-		"tokens": "echo Building JSON tokens... && echo Building ES6 tokens... && rm -rf _raw.json && rm -rf img && rm -rf css && rm -rf json && rm -rf js && rm -rf _scss && node --experimental-modules --no-warnings index.mjs && echo Initiating Style Dictionary... && node ./build.js && echo Initiating Figma Assets Generator... && npx figma-assets-generator && for file in ./img/*.svg; do npx svg-to-jsx -o $file $file; done && echo && echo Design Tokens generated successfully! && echo",
+		"tokens": "echo Building JSON tokens... && echo Building ES6 tokens... && rm -rf _raw.json && rm -rf img && rm -rf css && rm -rf json && rm -rf js && rm -rf _scss && node --experimental-modules --no-warnings main.mjs && echo Initiating Style Dictionary... && node ./build.js && echo Initiating Figma Assets Generator... && npx figma-assets-generator && for file in ./img/*.svg; do npx svg-to-jsx -o $file $file; done && echo && echo Design Tokens generated successfully! && echo",
 		"test": "npx jest",
 		"precommit": "echo Running pre-commit linting... && pretty-quick --staged && npm --no-git-tag-version version patch && git add package.json"
 	}
