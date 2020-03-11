@@ -1,6 +1,6 @@
 {
 	"name": "@edma/design-tokens",
-	"version": "4.2.6",
+	"version": "4.2.7",
 	"description": "Chopped and extended Figmagic coupled with Amazon Style Dictionary.",
 	"author": "Mikael Vesavuori, AWS Team, Scott Fowles",
 	"main": "./index.mjs",
