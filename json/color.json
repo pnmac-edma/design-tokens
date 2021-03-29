@@ -76,7 +76,7 @@
     "compliance": "AA"
   },
   "g700": {
-    "value": "rgba(66, 66, 66, 1)",
+    "value": "rgba(64, 66, 69, 1)",
     "type": "color",
     "comment": "Gray 700",
     "ratio": "10.05:1",
@@ -92,7 +92,7 @@
     "compliance": "AAA"
   },
   "g900": {
-    "value": "rgba(48, 48, 48, 1)",
+    "value": "rgba(40, 40, 45, 1)",
     "type": "color",
     "comment": "Gray 900",
     "ratio": "13.2:1",
