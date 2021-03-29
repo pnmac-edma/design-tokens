@@ -1,12 +1,12 @@
 /**
  * Do not edit directly
- * Generated on Thu, 14 May 2020 21:46:40 GMT
+ * Generated on Mon, 29 Mar 2021 14:03:37 GMT
  */
 
 const breakpoint = {
-  "1": "750px",
-  "2": "1050px",
-  "3": "1200px"
+  "phone": "750px",
+  "tablet": "1050px",
+  "desktop": "1200px"
 }
 
 export default breakpoint;

@@ -5,7 +5,7 @@
     "type": "color",
     "comment": "Brand Lightest Yellow",
     "ratio": "13.06:1",
-    "against": "rgba(35, 36, 31, 255)",
+    "against": "rgba(25, 25, 27, 255)",
     "compliance": "AAA"
   },
   "lightYellow": {
@@ -13,7 +13,7 @@
     "type": "color",
     "comment": "Brand Light Yellow",
     "ratio": "10.47:1",
-    "against": "rgba(35, 36, 31, 255)",
+    "against": "rgba(25, 25, 27, 255)",
     "compliance": "AAA"
   },
   "yellow": {
@@ -29,7 +29,7 @@
     "type": "color",
     "comment": "Brand Dark Yellow",
     "ratio": "4.29:1",
-    "against": "rgba(35, 36, 31, 255)",
+    "against": "rgba(25, 25, 27, 255)",
     "compliance": "AA"
   },
   "lightestRed": {
@@ -37,7 +37,7 @@
     "type": "color",
     "comment": "Brand Lightest Red",
     "ratio": "9.36:1",
-    "against": "rgba(35, 36, 31, 255)",
+    "against": "rgba(25, 25, 27, 255)",
     "compliance": "AAA"
   },
   "lightRed": {
@@ -45,7 +45,7 @@
     "type": "color",
     "comment": "Brand Light Red",
     "ratio": "4.6:1",
-    "against": "rgba(35, 36, 31, 255)",
+    "against": "rgba(25, 25, 27, 255)",
     "compliance": "AA"
   },
   "red": {
@@ -69,7 +69,7 @@
     "type": "color",
     "comment": "Brand Lightest Blue",
     "ratio": "11.46:1",
-    "against": "rgba(35, 36, 31, 255)",
+    "against": "rgba(25, 25, 27, 255)",
     "compliance": "AAA"
   },
   "lightBlue": {
@@ -101,7 +101,7 @@
     "type": "color",
     "comment": "Brand Lightest Cyan",
     "ratio": "12.38:1",
-    "against": "rgba(35, 36, 31, 255)",
+    "against": "rgba(25, 25, 27, 255)",
     "compliance": "AAA"
   },
   "lightCyan": {
@@ -109,7 +109,7 @@
     "type": "color",
     "comment": "Brand Light Cyan",
     "ratio": "6.89:1",
-    "against": "rgba(35, 36, 31, 255)",
+    "against": "rgba(25, 25, 27, 255)",
     "compliance": "AA"
   },
   "cyan": {
@@ -117,7 +117,7 @@
     "type": "color",
     "comment": "Brand Cyan",
     "ratio": "6.2:1",
-    "against": "rgba(35, 36, 31, 255)",
+    "against": "rgba(25, 25, 27, 255)",
     "compliance": "AA"
   },
   "darkCyan": {
@@ -133,7 +133,7 @@
     "type": "color",
     "comment": "Brand Lightest Green",
     "ratio": "10.3:1",
-    "against": "rgba(35, 36, 31, 255)",
+    "against": "rgba(25, 25, 27, 255)",
     "compliance": "AAA"
   },
   "lightGreen": {
@@ -141,7 +141,7 @@
     "type": "color",
     "comment": "Brand Light Green",
     "ratio": "5.56:1",
-    "against": "rgba(35, 36, 31, 255)",
+    "against": "rgba(25, 25, 27, 255)",
     "compliance": "AA"
   },
   "green": {
