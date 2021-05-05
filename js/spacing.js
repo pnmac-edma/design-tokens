@@ -1,14 +1,14 @@
 /**
  * Do not edit directly
- * Generated on Mon, 29 Mar 2021 14:17:21 GMT
+ * Generated on Wed, 05 May 2021 17:09:27 GMT
  */
 
 const spacing = {
-  "1": "0.25em",
-  "2": "0.5em",
-  "3": "1em",
-  "4": "1.5em",
-  "5": "2em"
+  "1": "0.5em",
+  "2": "1em",
+  "3": "1.5em",
+  "4": "2em",
+  "5": "4em"
 }
 
 export default spacing;

@@ -1,15 +1,15 @@
 /**
  * Do not edit directly
- * Generated on Mon, 29 Mar 2021 14:17:21 GMT
+ * Generated on Wed, 05 May 2021 17:09:27 GMT
  */
 
 const fontSize = {
   "h1": "2.5rem",
   "h2": "1.875rem",
   "h3": "1.5rem",
-  "body0": "0.875rem",
+  "body2": "1.25rem",
   "body1": "1rem",
-  "body2": "1.25rem"
+  "body0": "0.875rem"
 }
 
 export default fontSize;

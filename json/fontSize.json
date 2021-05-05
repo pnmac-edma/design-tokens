@@ -15,20 +15,20 @@
     "type": "typography",
     "comment": "24px"
   },
-  "body0": {
-    "value": "0.875rem",
+  "body2": {
+    "value": "1.25rem",
     "type": "typography",
-    "comment": "14px"
+    "comment": "20px"
   },
   "body1": {
     "value": "1rem",
     "type": "typography",
     "comment": "16px"
   },
-  "body2": {
-    "value": "1.25rem",
+  "body0": {
+    "value": "0.875rem",
     "type": "typography",
-    "comment": "20px"
+    "comment": "14px"
   }
 }
 }

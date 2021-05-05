@@ -1,11 +1,11 @@
 /**
  * Do not edit directly
- * Generated on Mon, 29 Mar 2021 14:17:21 GMT
+ * Generated on Wed, 05 May 2021 17:09:27 GMT
  */
 
 const font = {
-  "body": "\"Open Sans\", sans-serif",
   "heading": "\"Gilroy\", sans-serif",
+  "body": "\"Open Sans\", sans-serif",
   "mono": "\"Roboto Mono\", monospace"
 }
 

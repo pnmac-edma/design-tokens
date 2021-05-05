@@ -1,12 +1,11 @@
 /**
  * Do not edit directly
- * Generated on Mon, 29 Mar 2021 14:17:21 GMT
+ * Generated on Wed, 05 May 2021 17:09:27 GMT
  */
 
 const shadow = {
-  "1": "1px 1px 2px rgba(0, 0, 0, 0.25)",
-  "2": "2px 2px 3px rgba(0, 0, 0, 0.25)",
-  "3": "0px 8px 10px rgba(0, 0, 0, 0.20000000298023224)"
+  "1": "0px 0px 40px rgba(0, 0, 0, 0.10000000149011612), 0px 0px 20px rgba(0, 0, 0, 0.20000000298023224)",
+  "2": "0px 16px 60px rgba(0, 0, 0, 0.20000000298023224), 0px 5px 20px rgba(0, 0, 0, 0.15000000596046448)"
 }
 
 export default shadow;

@@ -1,15 +1,15 @@
 {
 "breakpoint": {
-  "phone": {
-    "value": "750px",
+  "desktop": {
+    "value": "1200px",
     "type": "layout"
   },
   "tablet": {
     "value": "1050px",
     "type": "layout"
   },
-  "desktop": {
-    "value": "1200px",
+  "phone": {
+    "value": "750px",
     "type": "layout"
   }
 }

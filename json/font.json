@@ -1,11 +1,11 @@
 {
 "font": {
-  "body": {
-    "value": "\"Open Sans\", sans-serif",
-    "type": "typography"
-  },
   "heading": {
     "value": "\"Gilroy\", sans-serif",
+    "type": "typography"
+  },
+  "body": {
+    "value": "\"Open Sans\", sans-serif",
     "type": "typography"
   },
   "mono": {

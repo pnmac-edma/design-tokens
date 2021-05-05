@@ -1,11 +1,10 @@
 /**
  * Do not edit directly
- * Generated on Mon, 29 Mar 2021 14:17:21 GMT
+ * Generated on Wed, 05 May 2021 17:09:27 GMT
  */
 
 const borderRadius = {
-  "1": "4px",
-  "2": "10px"
+  "1": "8px"
 }
 
 export default borderRadius;

@@ -1,11 +1,7 @@
 {
 "borderRadius": {
   "1": {
-    "value": "4px",
-    "type": "border"
-  },
-  "2": {
-    "value": "10px",
+    "value": "8px",
     "type": "border"
   }
 }
