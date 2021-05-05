@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 05 May 2021 17:09:27 GMT
+ * Generated on Wed, 05 May 2021 19:53:37 GMT
  */
 
 const brand = {
@@ -10,7 +10,7 @@ const brand = {
   "darkYellow": "hsl(46,95%,33%)",
   "lightestRed": "hsl(3,69%,83%)",
   "lightRed": "hsl(3,68%,62%)",
-  "red": "hsl(2,75%,46%)",
+  "red": "hsl(1,75%,22%)",
   "darkRed": "hsl(9,98%,26%)",
   "lightestBlue": "hsl(220,34%,88%)",
   "lightBlue": "hsl(222,45%,42%)",

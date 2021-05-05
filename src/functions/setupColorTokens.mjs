@@ -22,58 +22,42 @@ export function setupColorTokens(colorFrame, format) {
 	if (colorFrame) {
 		let colors = {};
 		let colorString;
+		let groupName;
 		let devName;
 		let friendlyName;
 		let contrastRatio;
 		let contrastCompliance;
 		let contrastColor;
-		let lightColor;
-		let lightCompliance;
-		let lightRatio;
+		let normalizedName;
 
-		colorFrame.children.forEach(color => {
-			devName = color.name;
-			friendlyName = color.children[0].name;
-			contrastRatio = color.children[2].name;
-			contrastCompliance = color.children[1].name;
-			contrastColor = _rgbToHsl(`rgb(${roundColorValue(color.children[2].fills[0].color.r, 255)}, ${roundColorValue(color.children[2].fills[0].color.g, 255)}, ${roundColorValue(color.children[2].fills[0].color.b, 255)})`);
+		colorFrame.children.forEach(colorGroup => {
+			groupName = colorGroup.name;
 
-			if (color.children.length === 5) {
-				lightRatio = color.children[4].name;
-				lightCompliance = color.children[3].name;
-				lightColor = _rgbToHsl(`rgb(${roundColorValue(color.children[3].fills[0].color.r, 255)}, ${roundColorValue(color.children[3].fills[0].color.g, 255)}, ${roundColorValue(color.children[3].fills[0].color.b, 255)})`);
-			}
+			colorGroup.children.forEach(color => {
+				devName = color.name;
+				friendlyName = color.children[0].name;
+				contrastRatio = color.children[2].name;
+				contrastCompliance = color.children[1].name;
+				contrastColor = _rgbToHsl(`rgb(${roundColorValue(color.children[2].fills[0].color.r, 255)}, ${roundColorValue(color.children[2].fills[0].color.g, 255)}, ${roundColorValue(color.children[2].fills[0].color.b, 255)})`);
 
-			if (format == 'js') {
-				colorString = _rgbToHsl(`rgb(${roundColorValue(color.background[0].color.r, 255)}, ${roundColorValue(color.background[0].color.g,255)}, ${roundColorValue(color.background[0].color.b, 255)})`);
-			} else {
-				if (color.children.length === 5) {
-					colorString = {
-						value: _rgbToHsl(`rgb(${roundColorValue(color.background[0].color.r, 255)}, ${roundColorValue(color.background[0].color.g,255)}, ${roundColorValue(color.background[0].color.b, 255)})`),
-						type: 'color',
-						comment: `${friendlyName}`,
-						ratio: `${contrastRatio}`,
-						against: `${contrastColor}`,
-						compliance: `${contrastCompliance}`,
-						lightRatio: `${lightRatio}`,
-						lightAgainst: `${lightColor}`,
-						lightCompliance: `${lightCompliance}`
-					}
+				if (format == 'js') {
+					colorString = _rgbToHsl(`rgb(${roundColorValue(color.background[0].color.r, 255)}, ${roundColorValue(color.background[0].color.g,255)}, ${roundColorValue(color.background[0].color.b, 255)})`);
 				} else {
 					colorString = {
 						value: _rgbToHsl(`rgb(${roundColorValue(color.background[0].color.r, 255)}, ${roundColorValue(color.background[0].color.g,255)}, ${roundColorValue(color.background[0].color.b, 255)})`),
 						type: 'color',
+						group: `${groupName}`,
 						comment: `${friendlyName}`,
 						ratio: `${contrastRatio}`,
 						against: `${contrastColor}`,
 						compliance: `${contrastCompliance}`
 					}
-				}
-			};
+				};
+				normalizedName = camelize(devName);
+				normalizedName = formatName(normalizedName);
+				colors[normalizedName] = colorString;
+			});
 
-			let normalizedName = camelize(devName);
-			normalizedName = formatName(normalizedName);
-			colors[normalizedName] = colorString;
 		});
 
 		return colors;

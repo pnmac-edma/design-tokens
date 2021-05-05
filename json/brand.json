@@ -3,6 +3,7 @@
   "lightestYellow": {
     "value": "hsl(51,90%,79%)",
     "type": "color",
+    "group": "Brand Yellows",
     "comment": "Brand Lightest Yellow",
     "ratio": "13.06:1",
     "against": "hsl(240,3%,10%)",
@@ -11,6 +12,7 @@
   "lightYellow": {
     "value": "hsl(49,89%,56%)",
     "type": "color",
+    "group": "Brand Yellows",
     "comment": "Brand Light Yellow",
     "ratio": "10.47:1",
     "against": "hsl(240,3%,10%)",
@@ -19,6 +21,7 @@
   "yellow": {
     "value": "hsl(48,100%,47%)",
     "type": "color",
+    "group": "Brand Yellows",
     "comment": "Brand Yellow",
     "ratio": "13.91:1",
     "against": "hsl(0,0%,0%)",
@@ -27,6 +30,7 @@
   "darkYellow": {
     "value": "hsl(46,95%,33%)",
     "type": "color",
+    "group": "Brand Yellows",
     "comment": "Brand Dark Yellow",
     "ratio": "4.29:1",
     "against": "hsl(240,3%,10%)",
@@ -35,6 +39,7 @@
   "lightestRed": {
     "value": "hsl(3,69%,83%)",
     "type": "color",
+    "group": "Brand Reds",
     "comment": "Brand Lightest Red",
     "ratio": "9.36:1",
     "against": "hsl(240,3%,10%)",
@@ -43,14 +48,16 @@
   "lightRed": {
     "value": "hsl(3,68%,62%)",
     "type": "color",
+    "group": "Brand Reds",
     "comment": "Brand Light Red",
     "ratio": "4.6:1",
     "against": "hsl(240,3%,10%)",
     "compliance": "AA"
   },
   "red": {
-    "value": "hsl(2,75%,46%)",
+    "value": "hsl(1,75%,22%)",
     "type": "color",
+    "group": "Brand Reds",
     "comment": "Brand Red",
     "ratio": "5.29:1",
     "against": "hsl(0,0%,100%)",
@@ -59,6 +66,7 @@
   "darkRed": {
     "value": "hsl(9,98%,26%)",
     "type": "color",
+    "group": "Brand Reds",
     "comment": "Brand Dark Red",
     "ratio": "9.68:1",
     "against": "hsl(0,0%,100%)",
@@ -67,6 +75,7 @@
   "lightestBlue": {
     "value": "hsl(220,34%,88%)",
     "type": "color",
+    "group": "Brand Blues",
     "comment": "Brand Lightest Blue",
     "ratio": "11.46:1",
     "against": "hsl(240,3%,10%)",
@@ -75,6 +84,7 @@
   "lightBlue": {
     "value": "hsl(222,45%,42%)",
     "type": "color",
+    "group": "Brand Blues",
     "comment": "Brand Light Blue",
     "ratio": "6.92:1",
     "against": "hsl(0,0%,100%)",
@@ -83,6 +93,7 @@
   "blue": {
     "value": "hsl(218,100%,26%)",
     "type": "color",
+    "group": "Brand Blues",
     "comment": "Brand Blue",
     "ratio": "11.85:1",
     "against": "hsl(0,0%,100%)",
@@ -91,6 +102,7 @@
   "darkBlue": {
     "value": "hsl(225,97%,18%)",
     "type": "color",
+    "group": "Brand Blues",
     "comment": "Brand Dark Blue",
     "ratio": "16.47:1",
     "against": "hsl(0,0%,100%)",
@@ -99,6 +111,7 @@
   "lightestCyan": {
     "value": "hsl(196,70%,88%)",
     "type": "color",
+    "group": "Brand Cyans",
     "comment": "Brand Lightest Cyan",
     "ratio": "12.38:1",
     "against": "hsl(240,3%,10%)",
@@ -107,6 +120,7 @@
   "lightCyan": {
     "value": "hsl(198,69%,60%)",
     "type": "color",
+    "group": "Brand Cyans",
     "comment": "Brand Light Cyan",
     "ratio": "6.89:1",
     "against": "hsl(240,3%,10%)",
@@ -115,6 +129,7 @@
   "cyan": {
     "value": "hsl(196,73%,53%)",
     "type": "color",
+    "group": "Brand Cyans",
     "comment": "Brand Cyan",
     "ratio": "6.2:1",
     "against": "hsl(240,3%,10%)",
@@ -123,6 +138,7 @@
   "darkCyan": {
     "value": "hsl(196,73%,35%)",
     "type": "color",
+    "group": "Brand Cyans",
     "comment": "Brand Dark Cyan",
     "ratio": "4.99:1",
     "against": "hsl(0,0%,100%)",
@@ -131,6 +147,7 @@
   "lightestGreen": {
     "value": "hsl(134,34%,78%)",
     "type": "color",
+    "group": "Brand Greens",
     "comment": "Brand Lightest Green",
     "ratio": "10.3:1",
     "against": "hsl(240,3%,10%)",
@@ -139,6 +156,7 @@
   "lightGreen": {
     "value": "hsl(132,33%,50%)",
     "type": "color",
+    "group": "Brand Greens",
     "comment": "Brand Light Green",
     "ratio": "5.56:1",
     "against": "hsl(240,3%,10%)",
@@ -147,6 +165,7 @@
   "green": {
     "value": "hsl(132,74%,30%)",
     "type": "color",
+    "group": "Brand Greens",
     "comment": "Brand Green",
     "ratio": "4.52:1",
     "against": "hsl(0,0%,100%)",
@@ -155,6 +174,7 @@
   "darkGreen": {
     "value": "hsl(133,88%,20%)",
     "type": "color",
+    "group": "Brand Greens",
     "comment": "Brand Dark Green",
     "ratio": "7.58:1",
     "against": "hsl(0,0%,100%)",

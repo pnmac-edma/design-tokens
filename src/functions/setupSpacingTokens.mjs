@@ -17,7 +17,8 @@ export function setupSpacingTokens(spacingFrame, format) {
 			} else {
 				normalizedUnit = {
 					value: normalizeUnits(spacing.absoluteBoundingBox.height, 'px', 'em'),
-					type: 'layout'
+					type: 'layout',
+					comment: spacing.absoluteBoundingBox.height + 'px'
 				}
 			}
 

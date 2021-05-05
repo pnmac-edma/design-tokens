@@ -2,23 +2,28 @@
 "spacing": {
   "1": {
     "value": "0.5em",
-    "type": "layout"
+    "type": "layout",
+    "comment": "8px"
   },
   "2": {
     "value": "1em",
-    "type": "layout"
+    "type": "layout",
+    "comment": "16px"
   },
   "3": {
     "value": "1.5em",
-    "type": "layout"
+    "type": "layout",
+    "comment": "24px"
   },
   "4": {
     "value": "2em",
-    "type": "layout"
+    "type": "layout",
+    "comment": "32px"
   },
   "5": {
     "value": "4em",
-    "type": "layout"
+    "type": "layout",
+    "comment": "64px"
   }
 }
 }
